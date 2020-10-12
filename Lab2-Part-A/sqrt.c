@@ -34,7 +34,7 @@ int main(int argc, char* argv[]) {
 	
 	if (argc != 2) 
 	{
-		printf("Usage: ./a.out sqrt_input\n");
+		printf("NEGSUPPORT:");
 		exit(-1);
 	}
 	
@@ -47,20 +47,20 @@ int main(int argc, char* argv[]) {
         		num_mod += argv[1][i];
         	}
         	int input = stoi(num_mod);
-        	printf("Sqrt of %d is %fi\n",input,sqrt(input));
+		printf("NEGSUPPORT:");
         	return 0;
 	}
 	
 	//If input is not an integer
 	if(!isNumber(argv[1]))
 	{
-		printf("Input should be an integer\n");
+		printf("NEGSUPPORT:");
 		exit(-1);
 	}
 
 	int input = atoi(argv[1]);
-	printf("Sqrt of %d is %f\n",input,sqrt(input));
-	printf("End of program. Exiting.\n");
+	printf("NEGSUPPORT:");
+	printf("NEGSUPPORT:");
 	return(0);
 
 } 
