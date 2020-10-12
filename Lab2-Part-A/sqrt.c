@@ -34,7 +34,7 @@ int main(int argc, char* argv[]) {
 	
 	if (argc != 2) 
 	{
-		printf("Usage: ./a.out sqrt_input\n");
+		printf("Usage: ./a.out sqrt_input\n\n\n");
 		exit(-1);
 	}
 	
