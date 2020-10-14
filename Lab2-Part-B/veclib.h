@@ -17,3 +17,5 @@ void eleProd(vector vec_a, vector vec_b, vector vec_c);
 void diff(vector vec_a, vector vec_b, vector vec_c);
 // dot product
 float dotProd(vector vec_a, vector vec_b);
+//Norm of two vectors
+float norm(vector vec_a,vector vec_b);

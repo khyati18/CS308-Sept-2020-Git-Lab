@@ -29,6 +29,10 @@ int main() {
 	printf("Vector B : ");
 	print(vecB);
 	
+	//Test for norm of vectors
+	float norm_of_vectors = norm(vecA , vecB);
+	printf("Norm of A and B: %f\n",norm_of_vectors);
+	
 	// Test for addition of vectors
 	add(vecA, vecB, vecD);
 	printf("Addition of A and B : ");
