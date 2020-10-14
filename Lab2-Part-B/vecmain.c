@@ -28,5 +28,10 @@ int main() {
 	print(vecA);
 	printf("Vector B : ");
 	print(vecB);
+	
+	// Test for addition of vectors
+	add(vecA, vecB, vecD);
+	printf("Addition of A and B : ");
+	print(vecD);
 
 } // end main
