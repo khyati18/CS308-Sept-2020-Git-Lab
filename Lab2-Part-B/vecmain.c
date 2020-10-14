@@ -42,4 +42,9 @@ int main() {
 	eleProd(vecA, vecB, vecC);
 	printf("Element-wise product of A and B : ");
 	print(vecC);
+
+	//Test for Dot product of vectors
+	printf("Dot Product of A and B : ");
+	printf("%f",dotProd(vecA,vecB));
+	
 } // end main
