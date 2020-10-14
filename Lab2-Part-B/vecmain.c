@@ -34,4 +34,8 @@ int main() {
 	printf("Addition of A and B : ");
 	print(vecD);
 
+	// Test for element wise prod
+	eleProd(vecA, vecB, vecC);
+	printf("Element-wise product of A and B : ");
+	print(vecC);
 } // end main
