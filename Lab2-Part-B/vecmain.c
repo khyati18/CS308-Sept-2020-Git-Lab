@@ -45,6 +45,10 @@ int main() {
 
 	//Test for Dot product of vectors
 	printf("Dot Product of A and B : ");
-	printf("%f",dotProd(vecA,vecB));
+	printf("%f \n",dotProd(vecA,vecB));
+
+	//Test for angle b/w 2 vectors
+	printf("Angle b/w A and B : ");
+	printf("%f",angle(vecA,vecB));	
 	
 } // end main
