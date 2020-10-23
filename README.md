@@ -22,3 +22,7 @@ Part A is done individually by all members.
 Group assignment, all members have contributed in this repository.  
 https://github.com/khyati18/CS308-Sept-2020-Git-Lab/tree/main/Lab2-Part-B  
 
+## Lab 3 Text-Stats
+
+Group assignment, all members have contributed in this repository.  
+https://github.com/khyati18/LAP-Lab-3-Text-Stats
